@@ -18,5 +18,6 @@ from django.urls import path
 from app01 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',views.hello),
+    path('hello/',views.hello),#from Fanbin
+    path('hello2/',views.hello2),#from Liang
 ]
